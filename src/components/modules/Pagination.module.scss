@@ -1,0 +1,37 @@
+.pagination {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 100px;
+  button {
+    width: 80px;
+    background-color: #3874ff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  p {
+    display: inline-block;
+    border: 1px solid #3874ff;
+    width: 25px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .disabled {
+    opacity: 0.3;
+  }
+  .selected {
+    background-color: #3874ff;
+  }
+}
+
+@media (max-width: 600px) {
+  .pagination {
+    width: 330px;
+  }
+}
