@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { convertData } from "../../helpers/ConvertData";
+import { convertData } from "../../helpers/convertData";
 import styles from "./Chart.module.scss";
 import {
   CartesianGrid,
